@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+section{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+section > label {
+    padding: 10px 0px;
+    font-size: 22px;
+    
+
+}
+
+section > input {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+section > button {
+    width: 100px;
+    margin: 50px 0px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
